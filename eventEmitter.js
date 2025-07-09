@@ -34,7 +34,7 @@ eventEmitter.on("myEvent", geek1);
 eventEmitter.on("myEvent", geek2);
 
 // Removing listener
-// eventEmitter.off('myEvent', geek1);
+eventEmitter.off('myEvent', geek1);
 
 // Triggering myEvent
 eventEmitter.emit("myEvent", "Event occurred");
